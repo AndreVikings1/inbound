@@ -1,0 +1,224 @@
+
+html{
+    font-size: 62.5%;
+    font-family:  'Open Sans Condensed', sans-serif;
+}
+body{
+    background-color:#ffffff;
+}
+.main-conteiner{
+    max-width: 1198px;
+    margin: 15px;
+    }
+
+header{
+   width: 100%;
+   background-color: #ffffff;
+  }
+header img {
+    width: 20%;
+    margin-left:3%;
+}
+section{
+    width: 100%;
+    margin-top: 0rem;
+    background-color: #ffffff;
+    display: block;
+    }
+ 
+
+section img{
+  width: 100%;
+}
+
+section nav {
+margin-top: 10px;
+width: 35%;
+background-color: #ffffff;
+display: block;
+float: left;
+margin-left: 35%;
+
+
+}
+section nav li {
+   font-size: 1.8rem;
+   margin: 1rem;
+   float: left;
+  list-style: none;
+  font-weight: bold;
+     }
+section nav a {
+  text-decoration: none;
+   color: rgb(0, 0, 0);
+   }
+   article{
+       width: 100%;
+       float: left;
+       margin-top: 22px;
+   }
+   article p {
+  font-size: 1.8rem;
+    padding-bottom: 1rem;
+   margin-left: 3rem;
+   margin-right: 3.5rem;
+   line-height: 19px;
+}
+
+iframe {
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 44px;
+    
+}
+h1, h2, h3, h4,h5{
+   font-weight: bold;
+   padding-top: 2rem;
+   margin-left: 2rem;
+   color: #399ca0;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+h2{
+    font-size: 2.0rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h4{
+    font-size: 1.6rem;
+}
+h5{
+    font-size: 1.4rem;
+}
+
+.tenho-interesse {
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #02979c;
+    width: 100%;
+    height: 44px;
+    text-align: center;
+    float: left;
+    }
+    footer p{
+        font-size: 1.2rem;
+        padding-top: 1rem;
+        color: #ffffff;
+    }
+    .nls0Xh6zuUST1SieTklICQ, .BIhDapc-wUKmWv-HepEwgw{
+        visibility: hidden;
+    }
+        
+    .tenho-interesse{
+        width: 100%;
+        padding-top: 1rem;
+        background-color: aqua;
+        float: left;
+    }
+    .cognito,
+    .c-forms-form-body,.tenho-interesse,.c-forms-form-title,
+    .c-forms-form-body toggle-on,
+    .c-text-singleline ,
+    .c-email,
+    .c-phone c-phone-international c-field  c-col-1 c-sml-col-1 c-span-24 c-sml-span-12,
+    .cognito c-safari c-med, .c-forms-form-body toggle-on  {
+        background-color: rgb(2, 90, 90)!important;
+    }
+
+
+    
+
+/* Mobile First*/
+@media (max-width: 425px){
+    .main-conteiner,
+    header,
+    section,article,footer, .tenho-interesse{ 
+     width: 100vw;
+     max-width:320px;
+     margin-top: 0px;
+   }
+   header img{
+    width: 100%;
+    height: auto;
+     background-color: #ffffff;
+     
+  }
+  header img{
+  width: 30%;
+     
+  }
+       section nav {
+           width: 100%;
+           margin: 0px 0px 0px 0px;
+       background-color: #ffffff;
+     }  
+     nav li{
+        font-size: 14px!important;
+        margin-left: 18px!important;
+        padding-left: 8px!important;
+      }
+      nav a{
+        font-size: 16px;
+        background-color: #ff0606;
+        
+        font-size: 12px;
+        
+      }
+
+button {
+  margin-left: 10px;
+  margin-top: 42px;
+  background-color: blue;
+} 
+button {
+  font-size: 16px;
+  } 
+article h1, h2,h3,h4,h5 {
+    margin-left: 1px 2px 1px 4px;
+    font-size: 26px;
+    margin-bottom: 4px;
+    margin-left: 2px;
+}
+
+iframe{
+    width: 100%;
+    margin-left: -1px;
+}
+
+}
+
+
+/* Mobile First*/
+@media (max-width: 768px){
+    .main-conteiner,
+    header,
+    section,article,footer, .tenho-interesse{ 
+     width: 100vw;
+     max-width:768px;
+     margin-top: 0px;
+   }
+
+   section nav {
+       width: 100%!important;
+      float: left;
+     margin-left: 40px;
+   }
+
+   section nav li{
+   text-align: center;
+    padding-left: 80px!important;
+    }
+    article h1,h2, h3, h4, h5{
+        margin-bottom: 12px;
+    }
+    article p{
+        line-height: 24px;
+    }
+
+   }
